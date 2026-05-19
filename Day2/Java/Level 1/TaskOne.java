@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class TaskOne{
+
+    public static void main(String[]args){
+    
+        Scanner inputCollector = new Scanner(System.in);
+        System.out.println("Enter ya name, chairman!");
+        String name = inputCollector.nextLine();
+
+        System.out.println("Hello! " + name);    
+    
+    }
+
+}
